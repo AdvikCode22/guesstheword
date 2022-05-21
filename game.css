@@ -1,0 +1,43 @@
+body{
+	background-color: lightblue;
+}
+
+.login{
+	float: none;
+	background-color: whitesmoke;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.button1{
+	width: 15%;
+	font-size: 20px;
+}
+
+.hh{
+	color: darkslateblue;
+	font-weight: bolder;
+}
+
+#output{
+	border-top: 10px solid maroon;
+	background-color: whitesmoke;
+	float: none;
+	padding: 12px;
+	border-radius: 5px;
+	text-align: left;
+}
+
+#pWord{
+	width: 60%;
+}
+
+h4 , h3{
+	display: inline-block;
+}
+
+#p1_name , #p2_name , #p1score , #p2score{
+	font-size: 30px;
+	margin-left: 10px;
+}
+

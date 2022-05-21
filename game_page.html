@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+
+</head>
+
+<body>
+    <h4 id="p1_name"></h4><span id="p1score"></span> 
+    <br>
+    <h4 id="p2_name"></h4><span id="p2score"></span>
+
+    <div class="container">
+        <center>
+            <h2>Guess The Word</h2>
+            <h3 class="hh">Question Turn: <span class="hh" id="p_qTurn"></span></h3>
+            <br>
+            <h3 class="hh">Answer Turn: <span class="hh" id="p_aTurn"></span></h3>
+
+            <div class="col-lg-6" id="output">
+
+            </div>
+
+            <br>
+            <br>
+
+            <label>Type Your Word. <b style="color: red;">Reecommended to enter words with more than 5 letters.</b></label>
+
+            <input type="text" class="form-control" id="pWord" placeholder="Enter Word">
+
+            <br>
+
+            <button onclick="send()" class="btn btn-info" style="width: 30%; font-size: 15px;">Enter</button>
+
+          </center>
+
+    </div>
+
+    <script src="game_page.js"></script>
+</body>
+</html>
